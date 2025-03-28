@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Tabbu0102/fibonacci.git'  // Change to your repo URL
+                git 'https://github.com/Tabbu0102/fibonacci.git'
             }
         }
 
